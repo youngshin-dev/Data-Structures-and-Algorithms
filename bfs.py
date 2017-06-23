@@ -8,12 +8,17 @@ The second line is the number of nodes n and the number of edges m
 The following m lines are the edges
 Then the next line indicates the starting node
 For example,
-'1'
+'2'
 '4 2'
 '1 2'
 '1 3'
 '1'
-This should output '1 1 -1'
+'3 1'
+'2 3'
+'2'
+This should output
+'1 1 -1'
+'-1 1'
 '''
 # It construct the adjacency list first
 # Then as it traverse the graph in breadth first manner, the distance to each node is recorded
